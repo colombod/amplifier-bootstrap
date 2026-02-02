@@ -109,10 +109,8 @@ print_header "Adding Bundles"
 
 # Regular bundles (not --app)
 BUNDLES=(
-    "design-intelligence-enhanced:git+https://github.com/anderlpz/amplifier-bundle-design-intelligence-enhanced@main"
     "discovery:git+https://github.com/anderlpz/amplifier-bundle-discovery@main"
     "m365:git+https://github.com/colombod/amplifier-bundle-m365@main"
-    "made-support:git+https://github.com/microsoft-amplifier/amplifier-bundle-made-support@main"
     "pr-review:git+https://github.com/robotdad/amplifier-bundle-pr-review"
     "stories:git+https://github.com/microsoft/amplifier-bundle-stories@main"
     "tui-tester:git+https://github.com/colombod/amplifier-bundle-tui-tester@main"
@@ -133,6 +131,8 @@ print_header "Adding App Bundles (always composed)"
 
 APP_BUNDLES=(
     "deepwiki:git+https://github.com/colombod/amplifier-bundle-deepwiki@main"
+    "design-intelligence-enhanced:git+https://github.com/anderlpz/amplifier-bundle-design-intelligence-enhanced@main"
+    "made-support:git+https://github.com/microsoft-amplifier/amplifier-bundle-made-support@main"
     "perplexity:git+https://github.com/colombod/amplifier-bundle-perplexity@main"
 )
 
